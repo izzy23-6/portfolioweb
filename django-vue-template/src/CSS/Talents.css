@@ -1,0 +1,19 @@
+#services{
+  background-color: rgb(52,61,70) !important;
+}
+.section-heading {
+  color: cyan;
+}
+.section-subheading {
+  color: lightcyan !important;
+}
+
+p {
+  color: lightcyan !important;
+}
+
+.service-heading {
+  margin: 15px 0;
+  text-transform: none;
+  color: cyan;
+}

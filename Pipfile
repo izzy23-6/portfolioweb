@@ -1,0 +1,23 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+django = "==1.11.7"
+djangorestframework = "*"
+"psycopg2" = "*"
+pillow = "*"
+django-webpack-loader = "*"
+pytz = "==2017.3"
+pylint = "*"
+django-cors-headers = "*"
+coverage = "*"
+twilio = "*"
+
+
+[dev-packages]
+
