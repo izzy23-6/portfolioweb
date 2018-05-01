@@ -6,10 +6,8 @@ import About from './components/About.vue'
 import Contact from './components/Contact.vue'
 import Talents from './components/Talents.vue'
 import { TweenMax, Power1, Back } from 'gsap'
-import { SplitText } from 'gsap'
+// import { SplitText } from 'gsap'
 import $ from 'jquery'
-
-const gsap = require('gsap')
 
 let scrollmagic
 if (process.browser) {
@@ -43,7 +41,7 @@ export default {
         triggerElement: '#home'
       }) // point of execution
         .setTween(tweenmax)
-        .addIndicators({ name: 'scene1 - no duration' })
+        // .addIndicators({ name: 'scene1 - no duration' })     -uncomment to debug
         .addTo(controller)
 
       new scrollmagic.Scene({
@@ -51,7 +49,7 @@ export default {
         triggerElement: '#home'
       }) // point of execution
         .setClassToggle('#NavB', 'active')
-        .addIndicators({ name: 'homeScene' })
+        // .addIndicators({ name: 'homeScene' })      -uncomment to debug
         .addTo(controller)
 
       new scrollmagic.Scene({
@@ -60,7 +58,7 @@ export default {
         triggerElement: '#services'
       })
         .setClassToggle('#sk', 'active')
-        .addIndicators({ name: 'skillsScene' })
+        // .addIndicators({ name: 'skillsScene' })      -uncomment to debug
         .addTo(controller)
 
       new scrollmagic.Scene({
@@ -68,7 +66,7 @@ export default {
         triggerElement: '#portfolio'
       })
         .setClassToggle('#po', 'active')
-        .addIndicators({ name: 'portfolioScene' })
+        // .addIndicators({ name: 'portfolioScene' })     -uncomment to debug
         .addTo(controller)
 
       new scrollmagic.Scene({
@@ -79,7 +77,7 @@ export default {
         reverse: true
       })
         .setClassToggle('#ab', 'active')
-        .addIndicators({ name: 'aboutScene' })
+        // .addIndicators({ name: 'aboutScene' })     -uncomment to debug
         .addTo(controller)
 
       new scrollmagic.Scene({
@@ -87,12 +85,9 @@ export default {
         triggerElement: '#contact'
       })
         .setClassToggle('#co', 'active')
-        .addIndicators({ name: 'contactScene' })
+        // .addIndicators({ name: 'contactScene' })     -uncomment to debug
         .addTo(controller)
-    },
-    // effects: () => {
-    //   TweenMax.to()
-    // }
+    }
   },
   mounted () {
     this.$nextTick(function () {

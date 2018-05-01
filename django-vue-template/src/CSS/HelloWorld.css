@@ -1,7 +1,7 @@
 header.masthead {
   text-align: center;
   color: lightcyan;
-  background: url('../assets/python3.png') no-repeat scroll center center;
+  background: url('../assets/header-bg.jpg') no-repeat scroll center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
