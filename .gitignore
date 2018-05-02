@@ -24,9 +24,10 @@ test
 *.pot
 *.pyc
 __pycache__/
-local_settings.py
 app_apis/__pycache__
 app_apis/migrations
+local_settings.py
+
 
 .venv/
 db.sqlite3
