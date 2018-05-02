@@ -24,8 +24,8 @@ test
 *.pot
 *.pyc
 __pycache__/
-django-vue-template/app_apis/__pycache__
-django-vue-template/app_apis/migrations
+/app_apis/__pycache__
+/app_apis/migrations
 local_settings.py
 
 
