@@ -11,15 +11,11 @@ export default {
     }
   },
   mounted () {
-    console.log('mounted')
     axios.get(API_URL)
       .then((response) => {
-        console.log(response)
         this.skillsData = response.data
       })
-      .catch((error) => {
-        console.log(error)
-      })
+      // .catch((error) => {}) uncomment to debug
   },
   methods: {
     seeSkills: function () {

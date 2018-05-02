@@ -104,12 +104,6 @@
       </div>
     </section>
 </template>
-
-<script src="../JS/Contact.js">
-
-</script>
-
+<script src="../JS/Contact.js"></script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style src="../CSS/Contact.css" scoped>
-
-</style>
+<style src="../CSS/Contact.css" scoped></style>

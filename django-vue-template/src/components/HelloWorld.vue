@@ -10,6 +10,5 @@
 </template>
 
 <script src="../JS/HelloWorld.js"></script>
-
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style src="../CSS/HelloWorld.css" scoped></style>

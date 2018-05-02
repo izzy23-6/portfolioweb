@@ -1,4 +1,3 @@
-/* eslint-disable no-new */
 import axios from 'axios'
 
 export default {
@@ -8,18 +7,18 @@ export default {
       aboutData: []
     }
   },
-
   mounted () {
-    console.log("about");
     axios
-      .get("http://127.0.0.1:8000/api/about/")
+      .get('http://127.0.0.1:8000/api/about/')
       .then(response => {
-        console.log(response);
-        this.aboutData = response.data;
+        // console.log(response) - uncomment to debug
+        this.aboutData = response.data
       })
-      .catch(error => {
-        console.log(error);
-      });
-    console.log(this.aboutData)
+      // .catch(error => {
+      //   console.log(error)
+      // })
+    // console.log(this.aboutData)
   }
 }
+
+// uncomment above to debug

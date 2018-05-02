@@ -14,7 +14,6 @@ import brands from '@fortawesome/fontawesome-free-brands'
 import regular from '@fortawesome/fontawesome-free-regular'
 import solid from '@fortawesome/fontawesome-free-solid'
 import AnimateCSS from 'animate.css'
-// import { Dropbox } from 'dropbox'
 
 fontawesome.library.add(brands, regular, solid)
 
@@ -24,7 +23,6 @@ global.jQuery = jQuery
 Vue.use(BootstrapVue)
 Vue.use(VeeValidate)
 Vue.use(AnimateCSS)
-// Vue.use(Dropbox)
 
 /* eslint-disable */
 new Vue({

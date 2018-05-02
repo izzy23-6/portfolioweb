@@ -57,6 +57,5 @@
     </section>
 </template>
 <script src="../JS/Talents.js"></script>
-
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style src="../CSS/Talents.css" scoped></style>
