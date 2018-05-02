@@ -24,8 +24,7 @@ test
 *.pot
 *.pyc
 __pycache__/
-/app_apis/__pycache__
-/app_apis/migrations
+migrations
 local_settings.py
 
 
