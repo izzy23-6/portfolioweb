@@ -10,7 +10,8 @@ selenium-debug.log
 test
 __pycache__
 migrations
-app_apis
+app_apis/__pycache__
+app_apis/migrations
 
 # Editor directories and files
 .idea
