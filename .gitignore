@@ -8,10 +8,6 @@ yarn-error.log*
 /test/e2e/reports/
 selenium-debug.log
 test
-__pycache__
-migrations
-app_apis/__pycache__
-app_apis/migrations
 
 # Editor directories and files
 .idea
@@ -29,6 +25,8 @@ app_apis/migrations
 *.pyc
 __pycache__/
 local_settings.py
+app_apis/__pycache__
+app_apis/migrations
 
 .venv/
 db.sqlite3
